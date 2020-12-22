@@ -34,19 +34,22 @@ http://private-92a969-processoseletivo1.apiary-mock.com/customers ;
 - **RF06** - Ao clicar no botão de “editar” o usuário deve ser redirecionado para uma outra rota com os dados do cliente em formato editável;
 - **RF07** - Deve ser adicionado na tela de edição um botão de “salvar” e um de “cancelar”;
 - **RF09** - Sendo que, depois do retorno da requisição ( PUT ) o usuário deve ser redirecionado para listagem e a aplicação deve apresentar a ele uma notificação dizendo “Cliente {nome_do_cliente} atualizado com sucesso!”;
+
 <p>&nbsp;</p>
 
 ### Requisitos não funcionais
 
-- **RNF01** - A aplicação deve ser hospedada em algum servidor de sua preferência, podendo ser Python Any Where, Github Pages ou onde você achar melhor;
-- **RNF02** - O código fonte deve ser publicado no GitHub e o link deverá ser enviado como
+- **RNF010** - A aplicação deve ser hospedada em algum servidor de sua preferência, podendo ser Python Any Where, Github Pages ou onde você achar melhor;
+- **RNF011** - O código fonte deve ser publicado no GitHub e o link deverá ser enviado como
 resposta deste e-mail;
 
 ### Bônus
 
-- **RF11** - Adicionar um validador reativo no input de idade para tamanho de no mínimo 1 e máximo de 3 números. Este validador só é acionado se o usuário tocar no campo. Caso o usuário digite algum valor que seja errado o botão de salvar deve ficar desabilitado;
-- **RNF04** - Adicionar testes nos endpoints;
-- **RNF05** - Utilizar docker.
+- **RF12** - Adicionar um validador reativo no input de idade para tamanho de no mínimo 1 e máximo de 3 números. Este validador só é acionado se o usuário tocar no campo. Caso o usuário digite algum valor que seja errado o botão de salvar deve ficar desabilitado;
+- **RNF13** - Adicionar testes nos endpoints;
+- **RNF14** - Utilizar docker;
+- **RN15** - Gerar um PWA da aplicação.
+
 <p>&nbsp;</p>
 
 **Desejamos sucesso em seu teste desde já! Nos colocamos a disposição para esclarecer quaisquer dúvidas.**
